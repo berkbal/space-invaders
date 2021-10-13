@@ -1,2 +1,2 @@
 # space-invaders-clone-with-kaboomJS
-tried to use kaboomJS first time.
+just tested out kaboomJS for a firstt time
