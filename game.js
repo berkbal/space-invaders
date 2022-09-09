@@ -49,7 +49,7 @@ scene("menu", () =>{
             origin("center"),
         ]);
 
-        btn.clicks(f);
+        //btn.clicks(f);
         btn.hovers(() => {
             const t = time() * 10;
             btn.color = rgb(
