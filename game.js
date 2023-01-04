@@ -63,9 +63,10 @@ scene("menu", () =>{
             btn.color = rgb();
         });
     }
-    go("game")
+    
     addButton("Start Game", vec2(960, 300), () => go("game"));
     addButton("Quit", vec2(960, 400), () => debug.log("lets act like game is closed"));
+    onMousePress(button: left, action: go("game") (pos: 960,300);
     
     // reset cursor to default at frame start for easier cursor management
     action(() => cursor("default"));
