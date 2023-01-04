@@ -63,6 +63,7 @@ scene("menu", () =>{
             btn.color = rgb();
         });
     }
+    go("game")
     addButton("Start Game", vec2(960, 300), () => go("game"));
     addButton("Quit", vec2(960, 400), () => debug.log("lets act like game is closed"));
     
