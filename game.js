@@ -1,4 +1,3 @@
-//import kaboom from "https://unpkg.com/kaboom/dist/kaboom.mjs";
 
 kaboom({
     global:true,
@@ -50,7 +49,7 @@ scene("menu", () =>{
             scale(1),
             origin("center"),
         ]);
-
+        btn.clicks(f);
         //btn.clicks(f);
         btn.hovers(() => {
             const t = time() * 10;
@@ -68,8 +67,8 @@ scene("menu", () =>{
     
     addButton("Start Game", vec2(960, 300), () => go("game"));
     addButton("Quit", vec2(960, 400), () => debug.log("lets act like game is closed"));
-    //onMousePress(button: left, action: go("game") (pos: 960,300);
-    go("game")
+ 
+    
     // reset cursor to default at frame start for easier cursor management
     action(() => cursor("default"));
     
